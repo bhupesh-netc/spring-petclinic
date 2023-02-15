@@ -11,8 +11,8 @@ pipeline {
       steps {
         sh '''./mvnw sonar:sonar \\
   -Dsonar.projectKey=Simple-Java-Maven-App \\
-  -Dsonar.host.url=http://3.109.0.59:9000 \\
-  -Dsonar.login=sqp_91c32711e4e85a1d366ad514f5552e31c6dd62ed'''
+  -Dsonar.host.url=http://65.0.117.41:9000 \\
+  -Dsonar.login=sqp_6b475e0e4cf3a087cffdb73563e58f85baea2d6d'''
       }
     }
 
